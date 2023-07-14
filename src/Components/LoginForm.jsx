@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import firebase from "firebase/compat/app";
-import "firebase/compat/auth";
-import "firebase/compat/database";
+
 import styles from "./LoginForm.module.css";
 
 import NextPage from "./NextPage";
