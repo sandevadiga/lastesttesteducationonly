@@ -1,15 +1,6 @@
 import React, { useState } from "react";
-
 import styles from "./LoginForm.module.css";
-
 import NextPage from "./NextPage";
-
-// Initialize Firebase
-const firebaseConfig = {
-  // Your Firebase configuration
-};
-
-firebase.initializeApp(firebaseConfig);
 
 const LoginForm = () => {
   const [mobileNumber, setMobileNumber] = useState("");
